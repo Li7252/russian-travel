@@ -1,4 +1,5 @@
 .header__lang-container {
   display: flex;
   column-gap: 18px;
+  list-style: none;
 }

@@ -7,12 +7,6 @@
   background-image: url('../../images/cover-trains.jpg');
   background-size: cover;
   z-index: 1;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.cover:hover > .cover__overlay:not(:hover) {
-  cursor: pointer;
-  opacity: 0.75;
 }
 
 

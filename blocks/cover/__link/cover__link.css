@@ -1,3 +1,7 @@
 .cover__link {
   text-decoration-line: none;
 }
+
+.cover__link:hover {
+  cursor: pointer;
+}

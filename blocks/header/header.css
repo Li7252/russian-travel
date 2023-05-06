@@ -6,11 +6,24 @@
   flex-wrap: nowrap;
   box-sizing: border-box;
   padding: 28px 48px 56px;
-  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media  screen and (max-width: 1024px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
 }
 
 @media  screen and (max-width: 320px) {
   .header {
-    padding: 28px 16px 16px;
+    padding: 16px 16px 48px;
   }
 }

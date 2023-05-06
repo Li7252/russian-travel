@@ -1,5 +1,4 @@
 .place__website {
-  height: min-content;
   grid-area: website;
   align-self: end;
   display: flex;
