@@ -1,0 +1,19 @@
+.place__paragraph-container {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media  screen and (max-width: 1024px) {
+  .place__paragraph-container {
+    row-gap: 27px;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .place__paragraph-container {
+    row-gap: 25px;
+    margin: 0 16px;
+  }
+}
