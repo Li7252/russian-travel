@@ -4,11 +4,8 @@
   grid-template-rows: minmax(200px, 740px);
   margin: 92px auto;
   max-width: 1184px;
-  background-image: url('../../images/cover-trains.jpg');
-  background-size: cover;
-  z-index: 1;
+  position: relative;
 }
-
 
 @media  screen and (max-width: 1024px) {
   .cover {

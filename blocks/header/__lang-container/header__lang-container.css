@@ -1,4 +1,6 @@
 .header__lang-container {
+  margin: 0;
+  padding-top: 7px;
   display: flex;
   column-gap: 18px;
   list-style: none;
