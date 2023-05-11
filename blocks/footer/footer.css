@@ -19,6 +19,13 @@
   }
 }
 
+@media  screen and (min-width: 321px) and (max-width: 680px) {
+  .footer {
+    flex-direction: column;
+    padding: 0 16px 24px;
+  }
+}
+
 @media  screen and (max-width: 320px) {
   .footer {
     flex-direction: column;

@@ -11,6 +11,13 @@
   }
 }
 
+@media  screen and (min-width: 321px) and (max-width: 680px) {
+  .place__paragraph-container {
+    row-gap: 25px;
+    margin: 0 16px;
+  }
+}
+
 @media  screen and (max-width: 320px) {
   .place__paragraph-container {
     row-gap: 25px;

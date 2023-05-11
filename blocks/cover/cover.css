@@ -23,6 +23,14 @@
   }
 }
 
+@media  screen and (max-width: 680px) {
+  .cover {
+    max-width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+  }
+}
+
 @media  screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
