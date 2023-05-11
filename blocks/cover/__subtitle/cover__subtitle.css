@@ -11,7 +11,7 @@
   z-index: 2;
 }
 
-@media  screen and (min-width: 481px) and (max-width: 680px) {
+@media  screen and (max-width: 680px) {
   .cover__subtitle {
     max-width: 60%;
     font-size: 16px;
@@ -19,16 +19,10 @@
   }
 }
 
-@media  screen and (min-width: 321px) and (max-width: 480px) {
-  .cover__subtitle {
-    max-width: 60%;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
 @media  screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

@@ -25,6 +25,7 @@
 
 @media  screen and (min-width: 480px) and (max-width: 680px) {
   .place {
+    justify-content: center;
     grid-template-columns: minmax(160px, 340px) min-content;
     grid-template-rows: repeat(2, minmax(min-content, max-content)) repeat(2, minmax(min-content, max-content));
     row-gap: 32px;
@@ -36,6 +37,7 @@
 
 @media  screen and (min-width: 321px) and (max-width: 480px) {
   .place {
+    justify-content: center;
     grid-template-columns: minmax(320px, min-content);
     grid-template-rows: repeat(2, minmax(min-content, max-content)) 320px minmax(min-content, max-content);
     grid-template-areas:
