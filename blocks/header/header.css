@@ -5,15 +5,15 @@
   align-items: center;
   flex-wrap: nowrap;
   box-sizing: border-box;
-  padding: 0;
+  padding: 28px 0 56px;
   max-width: 1184px;
   width: calc(100% - 96px);
-  margin: 28px auto 56px;
+  margin: 0 auto;
 }
 
 @media  screen and (max-width: 1024px) {
   .header {
-    margin: 28px auto 48px;
+    padding: 28px 0 48px;
     max-width: 928px;
     width: calc(100% - 48px);
   }
@@ -21,7 +21,7 @@
 
 @media  screen and (max-width: 320px) {
   .header {
-    margin: 16px auto 48px;
+    padding: 16px 0 48px;
     width: calc(100% - 32px);
   }
 }
